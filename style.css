@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('4.jpg'); /* Add background image */
+  background-size: cover; /* Ensure the background image covers the entire background */
+  background-attachment: fixed; /* Make the background image fixed */
+}
+
+header {
+  background-color: rgba(51, 51, 51, 0.8); /* Add some transparency */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+aside {
+background-color: rgba(51, 51, 51, 0.8);
+  padding: 40px;
+  width: 40%; /* Set the width of the sidebar */
+  float: right; /* Float the sidebar to the right */
+ /* box-sizing: border-box; Include padding and border in element's total width and height 
+  border: 1px solid #ccc;  Add border around the sidebar */
+}
+
+main {
+  padding: 20px;
+  margin-left: 20%;
+  /* Add margin to the left to accommodate the sidebar */
+}
+
+footer {
+  background-color: rgba(51, 51, 51, 0.8); /* Add some transparency */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both; /* Clear both floats */
+}
+h2{
+     color: black;
+}
+p{
+    color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+aside {
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 10px;
+  width: 40%;
+  float: right;
+}
+
+main {
+  padding: 20px;
+  margin-right: 30%;
+}
+
+footer {
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+h2, h3 {
+  color: white;
+}
+
+p, ul, label {
+  color: white;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  margin: 5px 0;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0b78d1;
+}
+
+ul, li{
+    color: black;
+}
+h5, a, h2{
+    color: yellow;
+} 
+span{
+    color: black;
+}
