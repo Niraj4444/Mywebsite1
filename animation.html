@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+        
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #111, #444);
+            background-size: 400% 400%;
+            animation: gradientShift 10s ease infinite;
+            font-family: 'bold', bold;
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        
+        .logo {
+            text-align: center;
+            color: white;
+        }
+        
+        .logo b {
+            font-size: 10vh;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .logo b span {
+            display: inline-block;
+            animation: blink linear infinite 2s;
+        }
+        
+        .logo b span:nth-of-type(2) {
+            animation-duration: 3s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        @keyframes blink {
+            0%, 78% { color: inherit; text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000; }
+            79%, 81%, 82% { color: #333; text-shadow: none; }
+            80% { text-shadow: none; }
+            83%, 100% { color: inherit; text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000; }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <b>He<span>llo</span> <br>
+        every<span>one</span></b>
+    </div>
+</body>
+</html>
